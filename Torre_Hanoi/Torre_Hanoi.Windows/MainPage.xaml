@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="Torre_Hanoi.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Torre_Hanoi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-1,1,1,-1">
+        <Image Source="imagens/main_page/titulo.jpg" HorizontalAlignment="Left" Height="236" VerticalAlignment="Top" Width="414" Margin="84,142,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-22.265"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Source="imagens/base.png" HorizontalAlignment="Left" Height="338" VerticalAlignment="Top" Width="328" Margin="293,416,0,0"/>
+        <Image Source="imagens/argola 1.png" HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="105" Margin="402,436,0,0"/>
+        <Image Source="imagens/argola 2.png" HorizontalAlignment="Left" Height="56" VerticalAlignment="Top" Width="165" Margin="373,498,0,0"/>
+        <Image Source="imagens/argola 3.png" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="221" Margin="343,559,0,0"/>
+        <Image Source="imagens/argola 4.png" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="339" Margin="282,619,0,0"/>
+        <Image x:Name="bt_inicia_jogo" Tapped="bt_jogar_Tapped" Source="imagens/main_page/bt_inicia_jogo.jpg" HorizontalAlignment="Left" Height="83" VerticalAlignment="Top" Width="100" Margin="918,410,0,0"/>
+        <Image x:Name="bt_jogar" Tapped="bt_jogar_Tapped" Source="imagens/main_page/im_jogar.jpg" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="100" Margin="919,493,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-0.237"/>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Page>

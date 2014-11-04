@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Torre_Hanoi.jogo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Torre_Hanoi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="imagens/base.png" HorizontalAlignment="Left" Height="338" VerticalAlignment="Top" Width="328" Margin="46,176,0,0"/>
+        <Image x:Name="img_argola1" Source="imagens/argola 1.png" HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="105" Margin="155,196,0,0" Visibility="Collapsed"  />
+        <Image x:Name="img_argola2" Source="imagens/argola 2.png" HorizontalAlignment="Left" Height="56" VerticalAlignment="Top" Width="165" Margin="126,258,0,0" Visibility="Collapsed" />
+        <Image x:Name="img_argola3" Source="imagens/argola 3.png" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="221" Margin="96,319,0,0" Visibility="Collapsed"/>
+        <Image x:Name="img_argola4" Source="imagens/argola 4.png" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="339" Margin="35,379,0,0" Visibility="Collapsed"/>
+        <Button x:Name="bt_empilhar_torre1" Content="Empilhar" HorizontalAlignment="Left" Margin="93,552,0,0" VerticalAlignment="Top" Height="53" Width="218" Click="bt_empilhar_torre1_Click" Visibility="Collapsed" />
+        <Button x:Name="bt_desempilhar_torre1" Content="Desempilhar" HorizontalAlignment="Left" Margin="94,615,0,0" VerticalAlignment="Top" Height="53" Width="218" Visibility="Collapsed" />
+        <TextBlock HorizontalAlignment="Left" Margin="122,41,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="TORRE 1" VerticalAlignment="Top" Height="61" Width="195" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="588,41,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="TORRE 2" VerticalAlignment="Top" Height="61" Width="195" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="993,41,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="TORRE 3" VerticalAlignment="Top" Height="61" Width="195" FontSize="36"/>
+        <Image Source="imagens/base.png" HorizontalAlignment="Left" Height="338" VerticalAlignment="Top" Width="328" Margin="539,176,0,0"/>
+        <Image Source="imagens/base.png" HorizontalAlignment="Left" Height="338" VerticalAlignment="Top" Width="328" Margin="993,176,0,0"/>
+        <Button x:Name="bt_empilhar_torre2" Content="Empilhar" HorizontalAlignment="Left" Margin="585,552,0,0" VerticalAlignment="Top" Height="53" Width="218" Visibility="Collapsed" />
+        <Button x:Name="bt_desempilhar_torre2" Content="Desempilhar" HorizontalAlignment="Left" Margin="585,615,0,0" VerticalAlignment="Top" Height="53" Width="218" Visibility="Collapsed"/>
+        <Button x:Name="bt_empilhar_torre3" Content="Empilhar" HorizontalAlignment="Left" Margin="1039,552,0,0" VerticalAlignment="Top" Height="53" Width="218" Visibility="Collapsed"/>
+        <Button x:Name="bt_desempilhar_torre3" Content="Desempilhar" HorizontalAlignment="Left" Margin="1039,615,0,0" VerticalAlignment="Top" Height="53" Width="218" Visibility="Collapsed" />
+        <Button x:Name="bt_iniciar_jogo" Content="INICIAR" HorizontalAlignment="Left" Margin="19,86,0,0" VerticalAlignment="Top" Click="bt_iniciar_jogo_Click"/>
+        <TextBlock x:Name="txb_meio" HorizontalAlignment="Left" Margin="452,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="111"/>
+
+    </Grid>
+</Page>
