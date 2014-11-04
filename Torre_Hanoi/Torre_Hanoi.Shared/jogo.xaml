@@ -14,7 +14,7 @@
         <Image x:Name="img_argola3" Source="imagens/argola 3.png" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="221" Margin="96,319,0,0" Visibility="Collapsed"/>
         <Image x:Name="img_argola4" Source="imagens/argola 4.png" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="339" Margin="35,379,0,0" Visibility="Collapsed"/>
         <Button x:Name="bt_empilhar_torre1" Content="Empilhar" HorizontalAlignment="Left" Margin="93,552,0,0" VerticalAlignment="Top" Height="53" Width="218" Click="bt_empilhar_torre1_Click" Visibility="Collapsed" />
-        <Button x:Name="bt_desempilhar_torre1" Content="Desempilhar" HorizontalAlignment="Left" Margin="94,615,0,0" VerticalAlignment="Top" Height="53" Width="218" Visibility="Collapsed" />
+        <Button x:Name="bt_desempilhar_torre1" Content="Desempilhar" HorizontalAlignment="Left" Margin="94,615,0,0" VerticalAlignment="Top" Height="53" Width="218" Visibility="Collapsed" Click="bt_desempilhar_torre1_Click" />
         <TextBlock HorizontalAlignment="Left" Margin="122,41,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="TORRE 1" VerticalAlignment="Top" Height="61" Width="195" FontSize="36"/>
         <TextBlock HorizontalAlignment="Left" Margin="588,41,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="TORRE 2" VerticalAlignment="Top" Height="61" Width="195" FontSize="36"/>
         <TextBlock HorizontalAlignment="Left" Margin="993,41,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="TORRE 3" VerticalAlignment="Top" Height="61" Width="195" FontSize="36"/>
